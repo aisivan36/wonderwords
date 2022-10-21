@@ -1,6 +1,6 @@
 # How To Run
 
-Make sure you have already registered the api from [FavQs](https://favqs.com/api_keys)
+Make sure you have already registered the api from [FavQs](https://favqs.com/api_keys).
 In the terminal or PowerShell, run the following
 This step is only for Windows users, others may skip this,
 install make
@@ -11,11 +11,12 @@ Then in Environment Variable add this to the user's path
 
     C:\Program Files (x86)\GnuWin32\bin
 
-Finally, you can get the requires dependencies just like running flutter get but with instant all of the packages at same time by running make get in the terminal
+<!-- Get Dependency -->
+
+Finally, you can get the requires dependencies just like running flutter get but with instant all of the packages at same time by running make get in the terminal.
+This command is issued in root project named it "makefile" you can change and do whatever you want.
 
 `make get`
-
-This command is issued in root project named it "makefile" you can change and do whatever you want.
 
     flutter run --dart-define=fav-qs-app-token=YOUR_KEY
 
